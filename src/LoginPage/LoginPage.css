@@ -1,0 +1,130 @@
+body {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+
+.Login {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.facebooktext {
+  padding: 1rem;
+  font-size: 4rem;
+  color: #1877f2;
+  font-weight: 760;
+}
+
+.title {
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.LoginContainer {
+  border: white 0.3rem solid;
+  background-color: white;
+  border-radius: 8px;
+  height: 22rem;
+  width: 24rem;
+  padding: 1rem;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0.1rem #dddfe2 solid;
+  border-radius: 5px;
+}
+
+input[type="Password"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0.1rem #dddfe2 solid;
+  border-radius: 5px;
+}
+
+.placeholder {
+  font-size: 18px;
+}
+
+/* .btn1 {
+  text-decoration: none;
+  color: white;
+} */
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1877f2;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px 32px;
+  justify-content: center;
+  margin: 4px 2px;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.forget {
+  color: #1877f2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1 rem;
+  margin-top: 16px;
+}
+
+.forget a {
+  text-decoration: none; /* This line removes underlines (hyphens) from the link */
+}
+
+.btns {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #f0f2f5;
+  background-color: #42b72a;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 65%;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-left: 20%;
+}
+
+.page a {
+  font-size: 1rem;
+  color: black;
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+}
+
+.page {
+  font-size: 1rem;
+  padding-left: 40%;
+  margin-bottom: 11%;
+}
+
+.Logindetails {
+  border-bottom: 0.1rem #dddfe2 solid;
+}

@@ -1,0 +1,288 @@
+.Main {
+  display: flex;
+  justify-content: space-between;
+}
+.Rside {
+  height: 50rem;
+  width: 20rem;
+  left: 0;
+  flex-wrap: wrap;
+}
+.Profile {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+.Profile > img {
+  border-radius: 50%;
+  width: 10%;
+}
+.Pro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-weight: 550;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+.Pro > div {
+  margin: 10px;
+}
+.Pro1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+
+.Pros {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  padding: 0 15px;
+  border-bottom: 0.1rem rgb(68, 62, 62) solid;
+}
+.Profiles {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.Profiles > img {
+  border-radius: 20%;
+  width: 20%;
+}
+.Pross {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding: 0 15px;
+}
+
+.Lside {
+  height: 50rem;
+  width: 21%;
+  left: 0;
+  flex-wrap: wrap;
+  margin-left: -57rem;
+}
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 0;
+  left: 0;
+  padding-left: 29rem;
+  /* position: fixed; */
+}
+.Contacts {
+  font-size: 1.2rem;
+  font-weight: 550;
+  margin-right: 5%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  padding: 2px 20px;
+}
+.Chaticon {
+  display: flex;
+  padding-left: 1.5rem;
+}
+
+.Profilee {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+  padding: 0.5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  margin-left: -15rem;
+}
+.Profilee1 {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+  padding: 0.5rem;
+  padding-right: 12rem;
+  margin-left: -15rem;
+  /* padding-top: 2rem; */
+}
+.Profilee > img {
+  border-radius: 50%;
+  width: 10%;
+  padding: 0.5rem;
+}
+.Profilee1 > img {
+  border-radius: 50%;
+  width: 10%;
+  padding: 0.5rem;
+}
+.MainArea {
+  display: grid;
+  width: 50%;
+  height: 30rem;
+  justify-content: center;
+}
+
+.addStory {
+  display: flex;
+  width: 200%;
+  margin: 18px 0;
+  color: white;
+  font-size: 1.5rem;
+  height: 20rem;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  margin-left: -7%;
+}
+.story {
+  width: 200px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 20rem;
+  border-radius: 0.5rem;
+  background-color: black;
+}
+.message {
+  display: grid;
+  height: 20rem;
+  width: 50%;
+  height: 20rem;
+  margin-left: 5%;
+}
+.Post {
+  /* margin-top: 10%; */
+  display: flex;
+  width: 55%;
+  height: 5rem;
+  justify-content: flex-start;
+  background-color: white;
+  margin-left: -67%;
+  margin-top: 25%;
+}
+.Post > div {
+  margin-left: 2px;
+}
+.Post > img {
+  height: 45px;
+  border-radius: 50%;
+  width: 45px;
+  margin: 12px;
+}
+input[type="Mind"] {
+  width: 80%;
+  margin: 15px 0;
+  display: inline;
+  height: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-left: 2rem;
+  box-sizing: border-box;
+}
+.call {
+  display: flex;
+  align-items: center;
+  margin-left: -67%;
+  height: 5rem;
+  width: 55%;
+  background-color: white;
+  margin-bottom: 50%;
+}
+.ico {
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+  color: black;
+}
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+  font-size: 1rem;
+}
+.Posted {
+  display: grid;
+  height: auto;
+  width: 80%;
+  align-items: flex-start;
+  margin-left: -67%;
+  margin-top: -49.5%;
+}
+.poster {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 69%;
+}
+.Reactjs {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px;
+  font-size: 1rem;
+  font-weight: 550;
+  color: black;
+}
+.update {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.edit {
+  display: grid;
+  justify-content: space-between;
+  color: black;
+  margin-right: 1rem;
+}
+.caption {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  color: black;
+  width: 65%;
+  height: 100%;
+  margin-top: -6%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-left: 4%;
+}
+.FacebookImg {
+  background-color: white;
+  width: 69%;
+  height: 130%;
+  margin-top: -15%;
+}
+.FacebookImg > img {
+  padding-left: 8rem;
+  padding-top: 3rem;
+}
+.comment {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  height: 5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Like {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-left: -29%;
+  margin-top: -28%;
+}
